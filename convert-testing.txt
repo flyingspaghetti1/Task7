@@ -1,0 +1,45 @@
+These are the run times for the mat.in file i uploaded:
+
+Without Cache:
+Starting: C:\Users\Alexandra\go\bin\dlv.exe dap --listen=127.0.0.1:52034 from c:\Users\Alexandra\OneDrive\Desktop
+DAP server listening at: 127.0.0.1:52034
+Conversion completed successfully. Output written to mat.in.x
+Program execution time: 6.8759943s
+Process 5932 has exited with status 0
+
+With Cache of 300000 entries:
+Starting: C:\Users\Alexandra\go\bin\dlv.exe dap --listen=127.0.0.1:52314 from c:\Users\Alexandra\OneDrive\Desktop
+DAP server listening at: 127.0.0.1:52314
+Conversion completed successfully. Output written to mat.in.x
+Program execution time: 3.875759s
+Process 11884 has exited with status 0
+
+With Cache of 200000 entries:
+Starting: C:\Users\Alexandra\go\bin\dlv.exe dap --listen=127.0.0.1:52333 from c:\Users\Alexandra\OneDrive\Desktop
+DAP server listening at: 127.0.0.1:52333
+Conversion completed successfully. Output written to mat.in.x
+Program execution time: 4.2762964s
+Process 15588 has exited with status 0
+
+With Cache of 150000 entries:
+Starting: C:\Users\Alexandra\go\bin\dlv.exe dap --listen=127.0.0.1:52237 from c:\Users\Alexandra\OneDrive\Desktop
+DAP server listening at: 127.0.0.1:52237
+Conversion completed successfully. Output written to mat.in.x
+Program execution time: 4.3163084s
+Process 16244 has exited with status 0
+
+
+With Cache of 100000 entries:
+Starting: C:\Users\Alexandra\go\bin\dlv.exe dap --listen=127.0.0.1:52323 from c:\Users\Alexandra\OneDrive\Desktop
+DAP server listening at: 127.0.0.1:52323
+Conversion completed successfully. Output written to mat.in.x
+Program execution time: 4.6502915s
+Process 3584 has exited with status 0
+
+
+With Cache of 50000 entries:
+Starting: C:\Users\Alexandra\go\bin\dlv.exe dap --listen=127.0.0.1:52309 from c:\Users\Alexandra\OneDrive\Desktop
+DAP server listening at: 127.0.0.1:52309
+Conversion completed successfully. Output written to mat.in.x
+Program execution time: 4.8151362s
+Process 7516 has exited with status 0
